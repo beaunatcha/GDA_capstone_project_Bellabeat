@@ -209,7 +209,7 @@ p + theme(axis.text.x = element_text(angle=90)) + labs(title="Average Hour Aslee
 
 
 ### Weight log
-Start with creating a new data frame to check how many rows were filled manualy.
+Start with creating a new data frame to check how many rows were filled manually.
 ```
 weight_log2 <- c("Manual_True", "Manual_False")
 weight_log_count <- c(nrow(subset(weight_log, is_manual_report == "True")), nrow(subset(weight_log, is_manual_report == "False")))
@@ -228,12 +228,12 @@ As shown in above bar chart, 41 records were manually filled in, and 26 of them 
 ## Phase 6: Act
 As I stated in the Process phase that a larger and detailed sample size would make this analysis more completed since now we do not know gender or age of the participants. However, after reviewing the analysis, these are the conclusions that I came up with.
 
-* Most users are sedentary and somewhat active, whcih took up 51.5% of portion. 
+* Most users are sedentary and somewhat active, which took up 51.5% of total users. 
 * 50% of the users did not wear the Fitbit to sleep for more than 10 days, but almost everyone wore the Fitbit almost everday.
 * Users took most steps on Saturday and the number dropped on Sunday. Plus, the number of steps peaked during 5PM to 7 PM.
 
 ## Recommendation
 * At the moment, the Fitbit bracelet does not have a screen, instead it was designed to be a fashion bracelet. However, in the future design I personally think that a small screen to show some progress during the day would be nice. For example, a user can easily check the Fitbit for number of steps he/she has taken so far that day.
-* Another recommended feature that I would like to add is a reminder to stand or move a bit when users have been sitting for too long. This would help with increasing active minutes per day.
+* Another recommended feature that I would like to add is a reminder to stand or move a bit when users have been sitting for too long. This would help increasing active minutes per day.
 * Set goal or badge for completing each activity challenge, for instance, hit 8 hours of sleep, exercise for 30 minutes, and take 6000 steps.
-* Connect the Fitbit to compatible smart scales to track weight more efficiently.
+* Feature to connect the Fitbit to a compatible smart scales to track weight more efficiently.
